@@ -1,0 +1,24 @@
+body {
+	font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5 {
+	font-family: "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;;
+}
+
+
+/* Containers */
+.container {
+	padding: 40px 20px;
+}
+
+.container-spacy {
+	padding: 80px 20px;
+}
+
+
+/* Backgrounds */
+.background-orange {
+	background-color: #f8bc3b;
+}
