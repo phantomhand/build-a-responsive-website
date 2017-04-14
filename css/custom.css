@@ -60,3 +60,15 @@ nav#main ul li a {
 nav#main ul li a:not(.button) {
 	color: #393f4a;
 }
+
+/* Buttons */
+
+.button {
+	padding: 14px 30px;
+	border-radius: 5px;
+}
+
+.button-primary, .button-primary:hover {
+	background: #3a3a3a;
+	color: #fff;
+}
