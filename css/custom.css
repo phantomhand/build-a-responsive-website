@@ -22,3 +22,41 @@ h1, h2, h3, h4, h5 {
 .background-orange {
 	background-color: #f8bc3b;
 }
+
+/* Header */
+header#main {
+	margin-bottom: 40px;
+}
+
+header#main .brand a {
+	font-family: "Pacifico";
+	font-size: 2em;
+	color: #393f4a;
+}
+
+/* Navigation */
+nav#main ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+nav#main ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav#main ul li:last-child {
+	margin-right: 0;
+}
+
+nav#main ul li a {
+	font-size: 78%;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+nav#main ul li a:not(.button) {
+	color: #393f4a;
+}
