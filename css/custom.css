@@ -90,9 +90,23 @@ nav#main ul li a:not(.button) {
 	margin-bottom: 40px;
 }
 
+.features {
+	text-align: center;
+}
 
+.features h5 {
+	font-size: 1.4em;
+	font-weight: 600;
+}
 
+.features p {
+	font-size: 80%;
+	margin-bottom: 40px;
+}
 
+.features img {
+	margin-bottom: 20px;
+}
 
 
 
