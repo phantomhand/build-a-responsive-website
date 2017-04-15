@@ -29,9 +29,11 @@ header#main {
 }
 
 header#main .brand a {
+	display: block;
 	font-family: "Pacifico";
 	font-size: 2em;
 	color: #393f4a;
+	margin-bottom: 20px;
 }
 
 /* Navigation */
@@ -72,3 +74,31 @@ nav#main ul li a:not(.button) {
 	background: #3a3a3a;
 	color: #fff;
 }
+
+/* Feature */
+
+.feature {
+	margin-top: 20px;
+}
+
+.feature h1 {
+	font-size: 5.5em;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 900;
+	line-height: 75px;
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
