@@ -213,3 +213,56 @@ nav#main ul li a:not(.button) {
 	font-size: .85em;
 	font-weight: 900;
 }
+
+/* Footer */
+
+.social-footer {
+	padding: 40px;
+	background: #000;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.social-footer-copy p {
+	font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: .75em;
+	text-align: center;
+	color: #555;
+	padding-top: 20px;
+}
+
+.social-footer ul li {
+	list-style-type: none;
+	display: inline-block !important;
+	padding-right: 15px;
+	float: right;
+}
+
+.social-footer ul li:first-child {
+	margin-right: -15px;
+}
+
+.social-footer .social-footer-icons .fa {
+	font-size: 1.3rem;
+	color: #bbb;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+	color: #fff;
+	transition: color 0.3s ease-in;
+}
+
+.social-footer .brand {
+	display: block;
+	font-family: "Pacifico";
+	font-size: 2em;
+	color: #bbb;
+	margin-bottom: 20px;
+}
